@@ -1,0 +1,208 @@
+/* -----------------------------------------------FOOTER---------------------------------------*/
+header {
+    background-image: url("../assets/img/FondoInicio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 775px;
+}
+
+/* -----------------HEADER NAV--------------------*/
+
+.Logo img {
+    width: 536.53px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.menu {
+    height: 100px;
+    margin-right: 50px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+}
+
+/* -----------------HEADER LOGO--------------------*/
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo div {
+    display: flex;
+    width: 592px;
+    height: 302px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.Logo div h1 {
+    color: #FF2070;
+    text-align: right;
+    font-family: 'justfist', sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 17px;
+}
+
+.Logo div h3 {
+    color: #FFF;
+    font-family: 'justfist', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.8px;
+}
+
+/* -----------------------------------------------MAIN-----------------------------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -----------------MIS BLOGS--------------------*/
+.MisBlogs {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MisBlogs h1 {
+    margin: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color: #FF2070;
+}
+
+.MisBlogs h3 {
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 32, 112, 0.75);
+}
+
+.MisBlogs p {
+    margin: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #444;
+}
+
+.gridTemplate {
+
+    width: 1303px;
+    height: 501px;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "i1 i2"
+        "i1 i3";
+    gap: 7px;
+}
+
+.img1 {
+    grid-area: i1;
+    border-radius: 10px;
+    background-color: dimgray;
+}
+
+.img2 {
+    grid-area: i2;
+    border-radius: 10px;
+    background-color: dimgray;
+}
+
+.img3 {
+    grid-area: i3;
+    border-radius: 10px;
+    background-color: dimgray;
+}
+
+/* -----------------SOBRE MI--------------------*/
+.SobreMi {
+    margin: 100px;
+    width: 1137px;
+    height: 315px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 67px;
+}
+
+.SobreMi img {
+    width: 310px;
+    height: 313px;
+}
+
+.SobreMi h1 {
+    color: #FF2070;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+}
+
+.SobreMi p {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+}
+
+/* -----------------------------------------------FOOTER-----------------------------------------*/
+footer {
+    background-color: #FF2070;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 0px 0px 0px 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* -----------------CONTACTO--------------------*/
+.contContacto p {
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+}
+
+.contContacto svg {
+    width: 30px;
+    height: 30px;
+
+    margin: 5px;
+}
+
+/* -----------------INFORMACION LEGAL--------------------*/
+.contInfo a {
+    text-decoration: none;
+    color: black;
+}
